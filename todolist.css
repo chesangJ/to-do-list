@@ -1,0 +1,69 @@
+ul{
+    list-style-type: none;
+    width: 40%;
+}
+li{
+    border: solid ;
+    padding: 8px;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: aliceblue;
+    color: palevioletred;
+    
+    
+}
+li+li{
+    margin-top: 10px;
+}
+
+.form{
+    /* border: solid black; */
+    margin-left: 30%;
+    /* width: 60%; */
+    padding: 10px;
+    align-items: center;
+    /* text-align: center; */
+    
+
+}
+.form input{
+    padding: 15px 16px;
+    width: 35%;
+    border: solid #E2E2E2 1px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color:purple;
+}
+.form  button{
+    background-color:blue;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 18px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon-container {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  /* Additional styling for the delete icon */
+  .icon-container .bx {
+    font-size: 18px;
+  }
+
+  .data{
+    border: solid ;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 8% ;
+    background-color: plum;
+    border-color: plum;
+  }
